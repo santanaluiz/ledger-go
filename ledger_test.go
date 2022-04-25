@@ -1,3 +1,4 @@
+//go:build ledger_device
 // +build ledger_device
 
 /*******************************************************************************
@@ -21,8 +22,8 @@ package ledger_go
 import (
 	"encoding/hex"
 	"fmt"
+	"github.com/santanaluiz/hid"
 	"github.com/stretchr/testify/assert"
-	"github.com/zondax/hid"
 	"testing"
 )
 
